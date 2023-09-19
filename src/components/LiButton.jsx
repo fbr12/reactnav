@@ -1,19 +1,25 @@
 import { products } from "../main";
-function LiButton() {
+function arrayIt() {
+  let catArray = [];
+  console.log(catArray);
   products.forEach((element) => {
-    let catArray = [];
-    if (!(element.category in catArray)) {
-      catArray = catArray.push(element.category);
+    if (!catArray.includes(element.category)) {
+      catArray.push(element.category);
     }
   });
+  return catArray;
+}
+
+function LiButton() {
+  let catArray = arrayIt();
   return (
-    <>
-    {
-        products.map(element=>(
-                <button key={element.id} className="item">{element.category}</button>
-        ))
-    }
-    </>
+    <ul>
+      {catArray.map((element) => (
+        <li key={element} className="item">
+          {element}
+        </li>
+      ))}
+    </ul>
   );
 }
 
