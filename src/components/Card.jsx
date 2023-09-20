@@ -1,9 +1,7 @@
 import { products } from "../main";
-import { likeSvg } from "./Likesvg";
 import { Button } from "@mui/material";
-import ThumbDownIcon from '@mui/icons-material/ThumbDown';
+import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 function Card() {
-    const likeSvg=
   return (
     <>
       {products.map((element) => (
