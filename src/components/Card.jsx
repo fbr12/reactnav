@@ -1,6 +1,8 @@
 import { products } from "../main";
+import { likeSvg } from "./Likesvg";
 
 function Card() {
+    const likeSvg=
   return (
     <>
       {products.map((element) => (
@@ -12,7 +14,7 @@ function Card() {
             <p className="price">${element.price}</p>
           </div>
           <div className="buttons">
-            <button className="recommend">{"Recommed"}</button>
+            <button className="recommend">{"Recommend"}</button>
             <button className="buy">{"Buy"}</button>
           </div>
         </div>
