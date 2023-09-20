@@ -1,5 +1,6 @@
 import { products } from "../main";
-
+import { Button } from "@mui/material";
+import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 function Card() {
   return (
     <>
@@ -12,7 +13,12 @@ function Card() {
             <p className="price">${element.price}</p>
           </div>
           <div className="buttons">
-            <button className="recommend">{"Recommed"}</button>
+            <div className="opinion">
+              <Button variant="contained" endIcon={<ThumbDownIcon />}>
+                Dislike
+              </Button>
+              <button className="dislike">{"Dislike"}</button>
+            </div>
             <button className="buy">{"Buy"}</button>
           </div>
         </div>

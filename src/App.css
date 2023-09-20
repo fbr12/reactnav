@@ -1,65 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Rubik:wght@400;600&display=swap');
-body{
-    background-color: #222;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Rubik:wght@400;600&display=swap");
+
+body {
+  background-color: #222;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #222;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  gap: 10px;
 }
-  
-li{
-    float:left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    cursor: pointer;
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
 }
- 
-.products{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);    
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    gap: 20px;
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  gap: 20px;
 }
+
 .product {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;  
-    padding: 2em;
-    width: 60%;
-    height: 80%;
-    border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2em;
+  width: 60%;
+  height: 80%;
+  border-radius: 14px;
 }
+
 img {
-    width: 75px;
-    height: 75px;
+  width: 75px;
+  height: 75px;
 }
-.price{
-    font-family:Rubik;
+
+.price {
+  font-family: Rubik;
 }
-.buttons{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 3em;
+
+.buttons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 3em;
 }
-.description{
-    height: 125px;
-    overflow: auto;
-    font-family: Rubik;
+
+.description {
+  height: 125px;
+  overflow: auto;
+  font-family: Rubik;
 }
-h2{
-    font-size: medium;
-    font-family: Rubik;
+
+h2 {
+  font-size: medium;
+  font-family: Rubik;
 }
