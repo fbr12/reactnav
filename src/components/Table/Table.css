@@ -1,0 +1,22 @@
+.products-table{
+    display: grid;
+    gap: 10px;
+}
+.product-table{
+    background-color: white;
+    display: grid;
+    width: 100%;
+    border-radius: 5px;
+}
+p.title{
+    font-family: Rubik;
+    font-weight: bold;
+}
+p.description-table{
+    font-family: Rubik;
+}
+p.price-table{
+    font-family: Rubik;
+    font-weight: bold;
+    color:brown;
+}

@@ -1,0 +1,36 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;  
+    padding: 2em;
+    width: 60%;
+    height: 90%;
+    border-radius: 14px;
+}
+img {
+    width: 125px;
+    height: 125px;
+}
+.price{
+    font-family:Rubik;
+    font-weight: bold;
+    color: brown;
+}
+.buttons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3em;
+    
+}
+.description{
+    height: 125px;
+    overflow: auto;
+    font-family: Rubik;
+}
+h2{
+    font-size: medium;
+    font-family: Rubik;
+}

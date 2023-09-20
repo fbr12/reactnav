@@ -1,4 +1,5 @@
-import { products } from "../main";
+import { products } from "../../data";
+import "./LiButton.css";
 function arrayIt() {
   let catArray = [];
   console.log(catArray);

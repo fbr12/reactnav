@@ -1,6 +1,7 @@
 import "./App.css";
-import { LiButton } from "./components/LiButton";
-import { Card } from "./components/Card";
+import { LiButton } from "./components/LiButton/LiButton";
+import { Card } from "./components/Card/Card";
+import { Table } from "./components/Table/Table";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <LiButton />
       <section className="products">
         <Card />
+      </section>
+      <section className="products-table">
+        <Table />
       </section>
     </>
   );
