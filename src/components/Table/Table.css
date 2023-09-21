@@ -1,14 +1,15 @@
 .products-table{
     display: grid;
-    gap: 10px;
+    gap: 25px;
 }
 .product-table{
     background-color: white;
-    display: grid;
-    width: 100%;
+    display: flex;
+    width: 98%;
     border-radius: 5px;
+    justify-self: center;
 }
-p.title{
+p.title-table{
     font-family: Rubik;
     font-weight: bold;
 }
@@ -19,4 +20,19 @@ p.price-table{
     font-family: Rubik;
     font-weight: bold;
     color:brown;
+}
+.info-table{
+    display: grid;
+    height: 125px;
+}
+.buttons-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.img-table{
+    width: 100px;
+    height: 100px;
+    padding: 4px;
 }

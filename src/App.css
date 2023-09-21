@@ -13,3 +13,6 @@ body{
     gap: 3em;
     padding: 2em;
 }
+.view button{
+    background-color: #222;
+}

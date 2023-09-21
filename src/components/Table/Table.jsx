@@ -11,13 +11,17 @@ function Table() {
     <>
       {products.map((element) => (
         <div key={element.id} className="product-table">
-          <img src={element.image} alt={element.title}></img>
-          <div className="info">
-            <p className="title">{element.title}</p>
+          <img
+            className="img-table"
+            src={element.image}
+            alt={element.title}
+          ></img>
+          <div className="info-table">
+            <p className="title-table">{element.title}</p>
             <p className="description-table">{element.description}</p>
-            <p className="price-table">${element.price}</p>
           </div>
           <div className="buttons-table">
+            <p className="price-table">${element.price}</p>
             <Button>
               <LocalMallIcon color="success" />
             </Button>
