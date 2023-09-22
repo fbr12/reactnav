@@ -4,6 +4,7 @@ import "./components/Table/Table.css";
 import { LiButton } from "./components/LiButton/LiButton";
 import { Card } from "./components/Card/Card";
 import { Table } from "./components/Table/Table";
+import { SearchBar } from "./components/SearchBar/SearchBar";
 import { useState } from "react";
 import { ViewCard } from "./components/Card/ViewCard";
 import { ViewTable } from "./components/Table/ViewTable";
@@ -23,6 +24,7 @@ function App() {
           handleOnClick();
         }}
       >
+        Change View
         <TableRowsIcon />
       </button>
       {viewCard ? (

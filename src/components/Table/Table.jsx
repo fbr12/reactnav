@@ -17,8 +17,12 @@ function Table() {
             alt={element.title}
           ></img>
           <div className="info-table">
-            <p className="title-table">{element.title}</p>
-            <p className="description-table">{element.description}</p>
+            <div className="div-title-table">
+              <p className="title-table">{element.title}</p>
+            </div>
+            <div className="div-description-table">
+              <p className="description-table">{element.description}</p>
+            </div>
           </div>
           <div className="buttons-table">
             <p className="price-table">${element.price}</p>

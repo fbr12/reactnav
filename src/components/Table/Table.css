@@ -1,6 +1,7 @@
 .products-table{
     display: grid;
     gap: 25px;
+    padding: 2em;
 }
 .product-table{
     background-color: white;
@@ -9,12 +10,21 @@
     border-radius: 5px;
     justify-self: center;
 }
+div.div-title-table{
+    height: 20px;
+}
 p.title-table{
     font-family: Rubik;
     font-weight: bold;
 }
+div.div-description-table{
+    display: flex;
+    height: 95px;
+    padding: 2px;
+}
 p.description-table{
     font-family: Rubik;
+    overflow: auto;
 }
 p.price-table{
     font-family: Rubik;

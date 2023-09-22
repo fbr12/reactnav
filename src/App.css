@@ -13,6 +13,26 @@ body{
     gap: 3em;
     padding: 2em;
 }
-.view button{
+button.view{
+    display: flex;
+    align-items: center;
     background-color: #222;
+    color: white;
+    padding: 4px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
 }
+.view {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .view:hover {
+    background: #222 radial-gradient(circle, transparent 1%, #222 1%) center/15000%;
+  }
+  .view:active {
+    background-color: grey;
+    background-size: 100%;
+    transition: background 0s;
+  }
